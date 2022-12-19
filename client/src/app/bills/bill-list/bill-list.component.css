@@ -1,0 +1,18 @@
+.redic {
+  font-size: larger;
+  height:40px;
+  vertical-align: middle;
+  text-align: center;
+  word-wrap: break-word;
+  border-top: 1px solid #ffffff;
+}
+table{
+  width:100%
+}
+.mat-column-ukupno, .mat-sort-column-broj, .mat-sort-column-datum , .mat-column-ime , .mat-column-akcije {
+  text-align: center;
+}
+.paginator{
+  display: flex;
+  justify-content: center;
+}

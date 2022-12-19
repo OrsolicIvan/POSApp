@@ -1,0 +1,63 @@
+<div class="body">
+  Proizvod:
+  <ng-select
+    
+    #proizvod
+    class="custom"
+    [items]="product.proizvodi"
+    bindLabel="naziv"
+    [(ngModel)]="selectedProizvod"
+    (click)="changeSelectedPr($event); changeToKolicina($event)"
+    (keydown.enter)="changeSelectedPr($event); changeToKolicina($event)"
+  >
+    <ng-template ng-option-tmp let-item="item" let-index="index" class="opcije">
+      <p>{{ item.naziv }} - Stanje:{{ item.stanje }} {{ item.jedinicaMjere.naziv | lowercase }}a, Cijena: {{ item.cijena }}  </p>
+
+    </ng-template>
+  </ng-select>
+
+  <form [formGroup]="addStavkaForm">
+    <div class="prodList" *ngIf="selectedProizvod.naziv != null">
+      Cijena: {{ selectedProizvod.cijena }} KM
+      <mat-form-field class="Forma">
+        <input
+          #kolicina
+          maxlength="300"
+          class="kupac"
+          matInput
+          type="number"
+          min="1"
+          max="{{ maxKolicina }}"
+          placeholder="Količina"
+          formControlName="kolicina"
+          (keydown.enter)="changeToPopust($event)"
+        />
+        <p matSuffix>
+          {{ selectedProizvod.jedinicaMjere.naziv }}
+        </p> </mat-form-field
+      ><br />
+      Količina proizvoda na stanju: {{ selectedProizvod.stanje }}
+      <mat-form-field class="Forma">
+        <mat-label>Popust</mat-label>
+        <input
+          #popust
+          class="kupac"
+          matInput
+          type="number"
+          formControlName="popust"
+          min="0"
+          max="100"
+        />
+        <p matSuffix>%</p>
+      </mat-form-field>
+      <button
+        mat-button
+        required
+        [disabled]="addStavkaForm.invalid"
+        (click)="addProizvod()"
+      >
+        DODAJ
+      </button>
+    </div>
+  </form>
+</div>

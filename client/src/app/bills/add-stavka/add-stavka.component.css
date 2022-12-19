@@ -1,0 +1,72 @@
+.Forma {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  color: rgb(108, 108, 108);
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(248, 248, 248);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  Box-shadow: 0 2px 1px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+}
+.prodlist {
+  height: 100%;
+  width: 100%;
+}
+.body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.custom {
+  height:70px;
+  border-width: 0px;
+  border-color: rgb(0, 0, 0);
+  color: rgb(108, 108, 108);
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(248, 248, 248);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  Box-shadow: 0 2px 1px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+}
+button {
+  width: 16%;
+  background-color: #3f51b5;
+  color: white;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+::ng-deep .mat-form-field-label {
+  /*change color of label*/
+  color: rgb(108, 108, 108) !important;
+  padding: 5px;
+}
+
+::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+  background-color: rgb(255, 255, 255) !important;
+}
+
+::ng-deep .mat-form-field-value {
+  color: rgb(108, 108, 108) !important;
+}
+
+::ng-deep .mat-form-field-input {
+  color: rgb(0, 0, 0) !important;
+}
+
+::ng-deep .mat-input-element::placeholder {
+  color: rgb(108, 108, 108);
+}
+::ng-deep .ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-marked { background-color: #cacaca; }
+::ng-deep .ng-dropdown-panel .ng-dropdown-panel-items .ng-option{
+   background-color: #ffffff; 
+   border-top:rgb(0, 0, 0) 0.5px solid;
+}
+::ng-deep .ng-input .input .ng-value{
+    height:100%;
+    width:100%;
+}

@@ -1,0 +1,27 @@
+<div class="rowic"  *ngIf="(accountService.currentUser$ | async) === null">
+    <div class="card">
+        <div class="card-body">
+            <div class="row3 text-center">
+                <h3 class="row3">LOGIN</h3>
+            </div>
+            <form #loginForm="ngForm" (ngSubmit)="login()" autocomplete="off">
+                <div class="col-md-12 form-group">
+                    <mat-form-field class="forma">
+                        <input matInput placeholder="Korisničko ime" name="username" [(ngModel)]="model.username"
+                            required>
+                        <mat-icon matPrefix>mode_edit</mat-icon>
+                    </mat-form-field>
+                </div>
+                <div class="col-md-12 form-group">
+                    <mat-form-field class="forma">
+                        <input matInput placeholder="Lozinka" name="password" [(ngModel)]="model.password"
+                            type="password" required>
+                        <mat-icon matPrefix>lock</mat-icon>
+                    </mat-form-field>
+                </div>
+                <div class="col-md-12 form-group gumb">
+                    <button mat-raised-button color="primary" type="submit" [disabled]="loginForm.invalid">Ulogiraj se</button>
+                </div>
+            </form>
+        </div>
+    </div>

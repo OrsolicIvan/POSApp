@@ -1,0 +1,29 @@
+
+.forma{
+    display: block;
+}
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+  button{
+    margin: 2px;
+  }
+.paginator{
+  display: flex;
+  justify-content: center;
+}
+.opcije{
+    text-align: center;
+}
+.opcijeH{
+  text-align: center;
+}

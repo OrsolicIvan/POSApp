@@ -1,0 +1,90 @@
+<mat-form-field appearance="standard">
+  <mat-label>Filter</mat-label>
+  <input
+    matInput
+    (keyup)="applyFilter($event)"
+    placeholder="Npr. Rajčica"
+    #input
+  />
+</mat-form-field>
+
+<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource" matSort>
+    <!-- Progress Column -->
+    <ng-container matColumnDef="sifra">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Šifra proizvoda</th>
+      <td mat-cell *matCellDef="let dataSource">{{ dataSource.sifra }}</td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="naziv">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Naziv proizvoda</th>
+      <td mat-cell *matCellDef="let dataSource">{{ dataSource.naziv }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="jedinicaMjere">
+      <th mat-header-cell *matHeaderCellDef>Jedinica mjere</th>
+      <td mat-cell *matCellDef="let dataSource">
+        {{ dataSource.jedinicaMjere.naziv }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="cijena">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Cijena</th>
+      <td mat-cell *matCellDef="let dataSource">{{ dataSource.cijena | number: ".2-2"}}KM</td>
+
+      <ng-container matColumnDef="stanje">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>
+          Stanje proizvoda
+        </th>
+        <td mat-cell *matCellDef="let dataSource">{{ dataSource.stanje }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="opcije">
+        <th mat-header-cell *matHeaderCellDef>Obriši proizvod</th>
+        <td mat-cell *matCellDef="let product">
+          <button
+            mat-icon-button
+            mat-raised-button
+            matTooltip="Ukloni proizvod"
+            [matTooltipPosition]="'above'"
+            (click)="openDialog(product.id)"
+          >
+            <mat-icon color="warn">close</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="opcije2">
+        <th mat-header-cell *matHeaderCellDef>Uredi proizvod</th>
+        <td mat-cell *matCellDef="let product">
+          <button
+            mat-icon-button
+            mat-raised-button
+            matTooltip="Uredi proizvod"
+            [matTooltipPosition]="'above'"
+            (click)="openUpdateDialog(product)"
+          >
+            <mat-icon color="dark">settings</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let product; columns: displayedColumns"></tr>
+
+    <!-- Row shown when there is no matching data. -->
+    <tr class="mat-row" *matNoDataRow>
+      <td class="mat-cell" colspan="4">
+        Nažalost proizvod "{{ input.value }}" nemamo na stanju.
+      </td>
+    </tr>
+  </table>
+  <div class="paginator">
+    <mat-paginator
+      [pageSizeOptions]="[10, 25, 50, 100]"
+      aria-label="Select page of products"
+    ></mat-paginator>
+  </div>
+</div>

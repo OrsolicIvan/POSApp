@@ -1,0 +1,106 @@
+<div class="fontic marginaTop">
+  <!-- <table class="tablee">
+    <tbody>
+      <tr>
+        <th class="redic" style="width: 20%">Sifra</th>
+        <th class="redic" style="width: 20%">Kupac</th>
+        <th class="redic" style="width: 20%">Datum</th>
+        <th class="redic" style="width: 20%">Cijena</th>
+        <th class="redic" style="width: 20%">Akcije</th>
+      </tr>
+      <tr class="imena" *ngFor="let racun of zaglavljeRacuna">
+        <td class="redic">{{ racun.broj }}</td>
+        <td class="redic">{{ racun.kupac.naziv | titlecase }}</td>
+        <td class="redic">{{ racun.datum | customDate: short }}</td>
+        <td class="redic">{{ racun.ukupnaCijena }}</td>
+        <td class="redic">
+          <button matTooltip="Obrisi" mat-button (click)="openDialog(racun.id)">
+            <mat-icon class="trash">delete_forever</mat-icon>
+          </button>
+          <button mat-button (click)="openPrintDialog(racun)">
+            <mat-icon matTooltip="Isprintaj">print</mat-icon>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table> -->
+</div>
+<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource" matSort>
+    <!-- Progress Column -->
+    <ng-container matColumnDef="broj">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Broj računa</th>
+      <td mat-cell *matCellDef="let dataSource">
+        {{ dataSource.broj }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="datum">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Datum</th>
+      <td mat-cell *matCellDef="let dataSource">
+        {{ dataSource.datum | customDate: short }}
+      </td>
+    </ng-container>
+    <!-- Name Column -->
+    <ng-container matColumnDef="ime">
+      <th mat-header-cell *matHeaderCellDef>Ime kupca</th>
+      <td mat-cell *matCellDef="let dataSource">
+        {{ dataSource.kupac.naziv }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="ukupno">
+      <th mat-header-cell *matHeaderCellDef>Ukupna cijena</th>
+      <td mat-cell *matCellDef="let dataSource">
+        {{ dataSource.ukupnaCijena | number: ".2-2"}} KM
+      </td>
+
+      <ng-container matColumnDef="akcije">
+        <th mat-header-cell *matHeaderCellDef>Akcije</th>
+        <td mat-cell *matCellDef="let product">
+          <button
+            matTooltip="Obrisi"
+            mat-icon-button
+            mat-raised-button
+            (click)="openDialog(product.id)"
+          >
+            <mat-icon color="warn">close</mat-icon>
+          </button>
+          <button
+            mat-icon-button
+            mat-raised-button
+            (click)="openPrintDialog(product)"
+          >
+            <mat-icon matTooltip="Isprintaj">print</mat-icon>
+          </button>
+          <!-- <button
+            class="btn"
+            mat-icon-button
+            mat-raised-button
+            matTooltip="Ukloni proizvod"
+            [matTooltipPosition]="'above'"
+          >
+            <mat-icon
+              color="warn"
+              (click)="removeProizvod(product)"
+              >close</mat-icon
+            >
+          </button> -->
+        </td>
+      </ng-container>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let dataSource; columns: displayedColumns"></tr>
+
+    <tr class="mat-row" *matNoDataRow>
+      <td class="mat-cell" colspan="4">Nema računa</td>
+    </tr>
+  </table>
+  <div class="paginator">
+    <mat-paginator
+      [pageSizeOptions]="[10, 25, 50, 100]"
+      aria-label="Select page of products"
+    ></mat-paginator>
+  </div>
+</div>

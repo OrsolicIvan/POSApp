@@ -1,0 +1,186 @@
+.row {
+    justify-content: center;
+    color: white
+  }
+  
+  .rowtop {
+    justify-content: center;
+    color: white;
+  }
+  
+  .row3 {
+    justify-content: center;
+    color: rgb(108, 108, 108);
+  }
+  
+  .prvired {
+    width: 30%
+  }
+  
+  .welcome {
+    font-size: 50px
+  }
+  
+  .welcome2 {
+    font-size: 25px;
+    font-weight: 10;
+    color: rgb(222, 222, 222);
+  }
+  
+  .card {
+    
+    margin-top: 40px;
+    margin-left: 36.5%;
+    margin-right: 36.5%;
+    width: 27%;
+  
+  
+    border-radius: 2%;
+    background-color: rgb(239, 239, 239);
+  }
+  .example::-webkit-scrollbar {
+    display: none;
+  }
+  h3 {
+    color: black
+  }
+  
+  h4 {
+    color: red
+  }
+  
+  .promjena:hover {
+    cursor: pointer;
+  }
+  
+  ::ng-deep .mat-form-field-label {
+    color: rgb(108, 108, 108) !important;
+    padding: 5px;
+  }
+  
+  ::ng-deep.mat-form-field-underline {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  
+  ::ng-deep .mat-form-field-value {
+    color: rgb(108, 108, 108) !important;
+  }
+  ::ng-deep .mat-form-field-wrapper{
+    padding:none;
+    margin:none;
+  }
+  ::ng-deep .mat-input-wrapper {
+    width: 50% !important
+  }
+  
+  .matInput {
+    background-color: red;
+  }
+  
+  .forma {
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    color: rgb(108, 108, 108);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    Box-shadow: 0 2px 1px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+  }
+
+  
+  /* Animation */
+  .waves {
+    position: fixed;
+    bottom: 0;
+    z-index: -5;
+    width: 100vw;
+    height: 100vh;
+    min-height: 800px;
+    max-height: 1450px;
+  }
+  
+  
+  
+  
+  .parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+  }
+  
+  .parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  
+  .parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  
+  .parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  
+  .parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+  
+  @keyframes move-forever {
+    0% {
+      transform: translate3d(-90px, 0, 0);
+    }
+  
+    100% {
+      transform: translate3d(85px, 0, 0);
+    }
+  }
+  
+  .flex {
+    /*Flexbox for containers*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .rowic {
+      width: 100%;
+    }
+  
+    .prvired {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+    .waves {
+      height: 1000px;
+      min-height: 800px;
+    }
+  
+    .content {
+      height: 30vh;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  }
+  .row3{
+    display:flex;
+  align-items:center;
+  justify-content:center;
+  }
+  .gumb{
+    display:flex;
+  align-items:center;
+  justify-content:center;
+  }

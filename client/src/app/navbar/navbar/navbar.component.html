@@ -1,0 +1,107 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    fixedInViewport
+    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="(isHandset$ | async) === false"
+  >
+    <mat-toolbar>Meni</mat-toolbar>
+
+    <mat-nav-list>
+      <div class="tekst">
+        <a
+          *ngIf="(accountService.currentUser$ | async) != null"
+          mat-list-item
+          routerLink="/create-kupac"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <mat-icon>perm_identity</mat-icon> Kupci
+        </a>
+      </div>
+      <div class="tekst">
+        <a
+          *ngIf="(accountService.currentUser$ | async) != null"
+          mat-list-item
+          routerLink="/products"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <mat-icon>note_add</mat-icon> Proizvodi
+        </a>
+      </div>
+      <div class="tekst">
+        <a
+          *ngIf="(accountService.currentUser$ | async) != null"
+          mat-list-item
+          routerLink="/pos"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <mat-icon>payment</mat-icon> POS
+        </a>
+      </div>
+      <div class="tekst">
+        <a
+          mat-list-item
+          routerLink="/"
+          routerLinkActive="active"
+          *ngIf="(accountService.currentUser$ | async) === null"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <mat-icon>exit_to_app</mat-icon> Login
+        </a>
+      </div>
+      <div class="tekst">
+        <a
+          mat-list-item
+          routerLink="/register"
+          routerLinkActive="active"
+          *ngIf="(accountService.currentUser$ | async) === null"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <mat-icon>perm_identity</mat-icon> Registracija
+        </a>
+      </div>
+      <div class="tekst">
+        <a
+          *ngIf="(accountService.currentUser$ | async) != null"
+          mat-list-item
+          routerLink="/bills"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <mat-icon>receipt</mat-icon> Racuni
+        </a>
+      </div>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async"
+      >
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <div class="desni" *ngIf="accountService.currentUser$ | async as user">
+        Dobrodošao {{ user.username | titlecase }}
+        <button
+          mat-raised-button
+          class="btn btn-dark btn-lg btn-block"
+          (click)="logout()"
+        >
+          Odjava
+        </button>
+      </div>
+    </mat-toolbar>
+    <div class="router">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,35 @@
+<div class="card"  *ngIf="(accountService.currentUser$ | async) === null">
+    <div class="card-body">
+        <div class="row3">
+            <h3 class="row3">REGISTRACIJA</h3>
+        </div>
+        <form #registerForm="ngForm" (ngSubmit)="register()" autocomplete="off">
+            <div class="col-md-12 form-group">
+                <mat-form-field class="forma">
+                    <input  matInput placeholder="Korisničko ime" name="username" [(ngModel)]="model.username" required>
+                    <mat-icon matPrefix>mode_edit</mat-icon>
+                </mat-form-field>
+            </div>
+            <div class="col-md-12 form-group">
+                <mat-form-field class="forma">
+                    <input matInput placeholder="Email" name="email"  [(ngModel)]="model.email" type="email" required>
+                    <mat-icon matPrefix>alternate_email</mat-icon>
+                </mat-form-field>
+            </div>
+            <div  class="col-md-12 form-group">
+                <mat-form-field class="forma">
+                    <input matInput placeholder="Lozinka" name="password" [(ngModel)]="model.password" type="password"
+                        required>
+                    <mat-icon matPrefix>lock</mat-icon>
+                </mat-form-field>
+            </div>
+            <div class="col-md-12 form-group gumb">
+                <button mat-raised-button color="primary" type="submit" [disabled]="registerForm.invalid">Registriraj se</button>
+            </div><br>
+            
+            <div class="col-md-12 form-group text-center " *ngIf="reminder==true">
+                <h4>Lozinka mora sadržavati 8 znakova od kojih mora postojati 1 veliko slovo i jedan broj</h4>
+            </div>
+        </form>
+    </div>
+</div>

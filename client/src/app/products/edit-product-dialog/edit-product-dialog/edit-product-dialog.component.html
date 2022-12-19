@@ -1,0 +1,93 @@
+<div *ngIf="product.product.id == null" class="sve">
+    <form [formGroup]="uploadForm" novalidate>
+            <h3>Unesi proizvod</h3>
+         
+            <div class="col">
+              <mat-form-field class="forma">
+                <input matInput placeholder="Naziv" formControlName="naziv" />
+              </mat-form-field>
+            </div>
+            
+            <div class="col">
+              <mat-form-field class="forma">
+                <p matSuffix>KM</p>
+                <input matInput placeholder="Cijena" formControlName="cijena" (keypress)="numberOnly($event)" >
+              </mat-form-field>
+            </div>
+            <div class="col">
+                <mat-form-field class="forma">
+                  <input matInput placeholder="Stanje" formControlName="stanje" (keypress)="numberOnly($event)">
+                </mat-form-field>
+              </div>
+
+              <div class="col">
+                <mat-form-field class="forma">
+                    <mat-label>Jedinica mjere</mat-label>      
+                  <mat-select
+                    (change)="onMjeraChange($event)"
+                    formControlName="jedinicaId">
+                    <mat-option *ngFor="let unit of units" [value]="unit.id">
+                      {{unit.naziv}}
+                    </mat-option>
+                  </mat-select>
+                </mat-form-field>
+             </div> 
+             
+          <button
+            mat-raised-button
+            (click)="postProduct()"
+            class="right"
+            color="primary"
+            [disabled]="uploadForm.invalid"
+          >
+            Dodaj proizvod
+          </button>
+    
+      </form>
+</div>
+
+<div *ngIf="product.product.id != null" class="sve">
+    <form [formGroup]="updateForm" autocomplete="off" class="form">
+
+        <h3>Uredi proizvod</h3>
+
+        <div class="col-md-12 form-group">
+            <mat-form-field class="forma">
+                <input matInput placeholder="Ime" value="{{product.product.naziv}}" formControlName="naziv" required>
+                <mat-icon matPrefix>mode_edit</mat-icon>
+            </mat-form-field>
+        </div>
+
+         <div class="col-md-12 form-group">
+            <mat-form-field class="forma">
+                <mat-label>Jedinica mjere</mat-label>      
+              <mat-select
+                (change)="onMjeraChange($event)"
+                formControlName="jedinicaId">
+                <mat-option *ngFor="let unit of units" [value]="unit.id">
+                  {{unit.naziv}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+         </div>
+        
+        
+        <div class="col-md-12 form-group">
+            <mat-form-field class="forma">
+                <p matSuffix>KM</p>
+                <input matInput placeholder="Cijena" formControlName="cijena" required (keypress)="numberOnly($event)">
+                <mat-icon matPrefix>lock</mat-icon>
+            </mat-form-field>
+        </div>
+        <div class="col-md-12 form-group">
+            <mat-form-field class="forma">
+                <input matInput placeholder="Stanje" formControlName="stanje" required  (keypress)="numberOnly($event)">
+                <mat-icon matPrefix>lock</mat-icon>
+            </mat-form-field>
+        </div>
+        <div class="col-md-12 form-group text-center butonic">
+            <button mat-raised-button [disabled]="updateForm.invalid" color="primary" (click)="updateProduct()">Uredi</button>
+        </div>
+    </form>
+</div>
+

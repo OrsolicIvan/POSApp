@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Ivan\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.4.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Ivan\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)nlog.schema\5.0.5\contentFiles\any\any\NLog.xsd" Condition="Exists('$(NuGetPackageRoot)nlog.schema\5.0.5\contentFiles\any\any\NLog.xsd')">
+      <NuGetPackageId>NLog.Schema</NuGetPackageId>
+      <NuGetPackageVersion>5.0.5</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>NLog.xsd</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)nlog.config\4.7.15\contentFiles\any\any\NLog.config" Condition="Exists('$(NuGetPackageRoot)nlog.config\4.7.15\contentFiles\any\any\NLog.config')">
+      <NuGetPackageId>NLog.Config</NuGetPackageId>
+      <NuGetPackageVersion>4.7.15</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>NLog.config</TargetPath>
+      <Private>True</Private>
+      <Link>NLog.config</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)nlog.config\4.7.15\contentFiles\any\any\NLog.xsd" Condition="Exists('$(NuGetPackageRoot)nlog.config\4.7.15\contentFiles\any\any\NLog.xsd')">
+      <NuGetPackageId>NLog.Config</NuGetPackageId>
+      <NuGetPackageVersion>4.7.15</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>NLog.xsd</TargetPath>
+      <Private>True</Private>
+      <Link>NLog.xsd</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.props')" />
+    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\5.6.3\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\5.6.3\build\Swashbuckle.AspNetCore.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\5.0.17\build\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\5.0.17\build\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\Ivan\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgNLog_Config Condition=" '$(PkgNLog_Config)' == '' ">C:\Users\Ivan\.nuget\packages\nlog.config\4.7.15</PkgNLog_Config>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Ivan\.nuget\packages\microsoft.entityframeworkcore.tools\5.0.17</PkgMicrosoft_EntityFrameworkCore_Tools>
+  </PropertyGroup>
+</Project>

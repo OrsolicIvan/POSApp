@@ -1,0 +1,94 @@
+﻿[
+  {
+    "Naziv": "Kupus",
+    "Cijena": 10,
+    "Stanje": 22,
+    "JedinicaId": 1
+  },
+  {
+    "Naziv": "Rajčica",
+    "Cijena": 15,
+    "Stanje": 60,
+    "JedinicaId": 2
+ },
+  {
+    "Naziv": "Jabuka",
+    "Cijena": 2,
+    "Stanje": 80,
+    "JedinicaId": 1
+  },
+  {
+    "Naziv": "Mandarina",
+    "Cijena": 3,
+    "Stanje": 90,
+    "JedinicaId": 2
+  },
+  {
+    "Naziv": "Kruška",
+    "Cijena": 4,
+    "Stanje": 50,
+    "JedinicaId": 1
+  },
+  {
+    "Naziv": "Čips",
+    "Cijena": 5,
+    "Stanje": 44,
+    "JedinicaId": 3
+  },
+  {
+    "Naziv": "Smoki",
+    "Cijena": 6,
+    "Stanje": 45,
+    "JedinicaId": 4
+  },
+  {
+    "Naziv": "Cigare",
+    "Cijena": 7,
+    "Stanje": 5,
+    "JedinicaId": 1
+  },
+  {
+    "Naziv": "Coca Cola",
+    "Cijena": 12,
+    "Stanje": 10,
+    "JedinicaId": 1
+  },
+  {
+    "Naziv": "Fanta",
+    "Cijena": 14,
+    "Stanje": 8,
+    "JedinicaId": 1
+  },
+  {
+    "Naziv": "Sprite",
+    "Cijena": 16,
+    "Stanje": 12,
+    "JedinicaId": 1
+  },
+  {
+    "Naziv": "Mineralna voda",
+    "Cijena": 20,
+    "Stanje": 9,
+    "JedinicaId": 1
+  },
+  {
+    "Naziv": "Čokolada",
+    "Cijena": 6,
+    "Stanje": 22,
+    "JedinicaId": 1
+  },
+  {
+    "Naziv": "Hrenovka",
+    "Cijena": 8,
+    "Stanje": 40,
+    "JedinicaId": 1
+  },
+  {
+    "Naziv": "Salama",
+    "Cijena": 9,
+    "Stanje": 50,
+    "JedinicaId": 1
+  }
+  
+
+]

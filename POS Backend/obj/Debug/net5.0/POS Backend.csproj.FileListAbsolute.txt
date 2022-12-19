@@ -1,0 +1,340 @@
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\appsettings.json
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\NLog.config
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\NLog.xsd
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\POS Backend.exe
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\POS Backend.deps.json
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\POS Backend.runtimeconfig.json
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\POS Backend.runtimeconfig.dev.json
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\POS Backend.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\POS Backend.pdb
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\NLog.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Npgsql.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\POS Backend.csproj.AssemblyReference.cache
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\POS Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\POS Backend.AssemblyInfoInputs.cache
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\POS Backend.AssemblyInfo.cs
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\POS Backend.csproj.CoreCompileInputs.cache
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\POS Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\POS Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\scopedcss\bundle\POS Backend.styles.css
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\staticwebassets\POS Backend.StaticWebAssets.Manifest.cache
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\POS Backend.RazorTargetAssemblyInfo.cache
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\POS Backend.csproj.CopyComplete
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\POS Backend.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\refint\POS Backend.dll
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\POS Backend.pdb
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\POS Backend.genruntimeconfig.cache
+C:\Users\Luka\source\repos\POS Backend\POS Backend\obj\Debug\net5.0\ref\POS Backend.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\appsettings.json
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\NLog.config
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\POS Backend.exe
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\POS Backend.deps.json
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\POS Backend.runtimeconfig.json
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\POS Backend.runtimeconfig.dev.json
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\POS Backend.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\POS Backend.pdb
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\NLog.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Npgsql.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\POS Backend.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\POS Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\POS Backend.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\POS Backend.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\POS Backend.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\POS Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\POS Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\scopedcss\bundle\POS Backend.styles.css
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\staticwebassets\POS Backend.StaticWebAssets.Manifest.cache
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\POS Backend.RazorTargetAssemblyInfo.cache
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\POS Backend.csproj.CopyComplete
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\POS Backend.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\refint\POS Backend.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\POS Backend.pdb
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\POS Backend.genruntimeconfig.cache
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\obj\Debug\net5.0\ref\POS Backend.dll
+C:\Users\Ivan\Desktop\PosAPP-main\POS Backend\bin\Debug\net5.0\Seeds\UserSeedData.json
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\POS Backend.csproj.AssemblyReference.cache
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\POS Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\POS Backend.AssemblyInfoInputs.cache
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\POS Backend.AssemblyInfo.cs
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\POS Backend.csproj.CoreCompileInputs.cache
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\POS Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\POS Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\POS Backend.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\refint\POS Backend.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\POS Backend.pdb
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Seeds\UserSeedData.json
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\NLog.config
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\NLog.xsd
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\appsettings.json
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\POS Backend.exe
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\POS Backend.deps.json
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\POS Backend.runtimeconfig.json
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\POS Backend.runtimeconfig.dev.json
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\POS Backend.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\POS Backend.pdb
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\NLog.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Npgsql.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\scopedcss\bundle\POS Backend.styles.css
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\staticwebassets\POS Backend.StaticWebAssets.Manifest.cache
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\POS Backend.RazorTargetAssemblyInfo.cache
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\POS Backend.csproj.CopyComplete
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\POS Backend.genruntimeconfig.cache
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\obj\Debug\net5.0\ref\POS Backend.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Seeds\UserSeedData.json
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\NLog.config
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\appsettings.json
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\POS Backend.exe
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\POS Backend.deps.json
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\POS Backend.runtimeconfig.json
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\POS Backend.runtimeconfig.dev.json
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\POS Backend.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\POS Backend.pdb
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\NLog.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Npgsql.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\POS Backend.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\POS Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\POS Backend.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\POS Backend.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\POS Backend.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\POS Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\POS Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\scopedcss\bundle\POS Backend.styles.css
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\staticwebassets\POS Backend.StaticWebAssets.Manifest.cache
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\POS Backend.RazorTargetAssemblyInfo.cache
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\POS Backend.csproj.CopyComplete
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\POS Backend.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\refint\POS Backend.dll
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\POS Backend.pdb
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\POS Backend.genruntimeconfig.cache
+C:\Users\Ivan\Desktop\LogiRegDodavanje\POS Backend\obj\Debug\net5.0\ref\POS Backend.dll
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Seeds\JediniceMjereSeedData.json
+C:\Users\Luka\Desktop\Nova mapa (5)\POS Backend\bin\Debug\net5.0\Seeds\ProizvodiSeedData.json
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\NLog.config
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\appsettings.json
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Seeds\JediniceMjereSeedData.json
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Seeds\ProizvodiSeedData.json
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Seeds\UserSeedData.json
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\POS Backend.exe
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\POS Backend.deps.json
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\POS Backend.runtimeconfig.json
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\POS Backend.runtimeconfig.dev.json
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\POS Backend.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\POS Backend.pdb
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\NLog.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Npgsql.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\POS Backend.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\POS Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\POS Backend.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\POS Backend.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\POS Backend.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\POS Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\POS Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\scopedcss\bundle\POS Backend.styles.css
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\staticwebassets\POS Backend.StaticWebAssets.Manifest.cache
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\staticwebassets\POS Backend.StaticWebAssets.Pack.cache
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\staticwebassets\msbuild.POS Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\staticwebassets\msbuild.build.POS Backend.props
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.POS Backend.props
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.POS Backend.props
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\POS Backend.RazorTargetAssemblyInfo.cache
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\POS Backend.csproj.CopyComplete
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\POS Backend.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\refint\POS Backend.dll
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\POS Backend.pdb
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\POS Backend.genruntimeconfig.cache
+C:\Users\Ivan\Desktop\PosApi\POS Backend\obj\Debug\net5.0\ref\POS Backend.dll

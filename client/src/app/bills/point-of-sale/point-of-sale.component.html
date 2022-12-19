@@ -1,0 +1,159 @@
+<div>
+  <div class="addProd"></div>
+</div>
+<form [formGroup]="uploadRacunForm">
+  <div class="grid-container">
+    <mat-grid-list cols="4" rowHeight="6.4vh">
+      <mat-grid-tile [colspan]="3" [rowspan]="14">
+        <mat-card class="dashboard-card3">
+          <mat-card-content class="dashboard-card-content">
+            <div class="bill">
+              <div class="mat-elevation-z8">
+                <table mat-table [dataSource]="dataSource">
+                  <!-- Progress Column -->
+                  <ng-container matColumnDef="Naziv">
+                    <th mat-header-cell *matHeaderCellDef>Naziv proizvoda</th>
+                    <td mat-cell *matCellDef="let dataSource">
+                      {{ dataSource.naziv }}
+                    </td>
+                  </ng-container>
+
+                  <ng-container matColumnDef="Cijena">
+                    <th mat-header-cell *matHeaderCellDef>Cijena</th>
+                    <td mat-cell *matCellDef="let dataSource">
+                      {{ dataSource.cijena | number: ".2-2" }} KM
+                    </td>
+                  </ng-container>
+                  <!-- Name Column -->
+                  <ng-container matColumnDef="Količina">
+                    <th mat-header-cell *matHeaderCellDef>
+                      Količina proizvoda
+                    </th>
+                    <td mat-cell *matCellDef="let dataSource">
+                      {{ dataSource.kolicina }}
+                      {{ dataSource.jedinicaMjere | lowercase
+                      }}<span *ngIf="dataSource.kolicina > 1">a</span>
+                    </td>
+                  </ng-container>
+
+                  <ng-container matColumnDef="Popust">
+                    <th mat-header-cell *matHeaderCellDef>Popust</th>
+                    <td mat-cell *matCellDef="let dataSource">
+                      {{ dataSource.popust }} %
+                    </td>
+
+                    <ng-container matColumnDef="Iznos popusta">
+                      <th mat-header-cell *matHeaderCellDef>Iznos popusta</th>
+                      <td mat-cell *matCellDef="let dataSource">
+                        {{ dataSource.iznosPopusta | number: ".2-2" }} KM
+                      </td>
+                    </ng-container>
+                    <ng-container matColumnDef="Vrijednost">
+                      <th mat-header-cell *matHeaderCellDef>Vrijednost</th>
+                      <td mat-cell *matCellDef="let dataSource">
+                        {{ dataSource.vrijednost | number: ".2-2" }} KM
+                      </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="Akcija">
+                      <th mat-header-cell *matHeaderCellDef>Obriši proizvod</th>
+                      <td mat-cell *matCellDef="let product">
+                        <button
+                          class="btn"
+                          mat-icon-button
+                          mat-raised-button
+                          matTooltip="Ukloni proizvod"
+                          [matTooltipPosition]="'above'"
+                          (click)="removeProizvod(product)"
+                        >
+                          <mat-icon color="warn">close</mat-icon>
+                        </button>
+                      </td>
+                    </ng-container>
+                  </ng-container>
+
+                  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                  <tr
+                    mat-row
+                    *matRowDef="let product; columns: displayedColumns"
+                  ></tr>
+
+                  <!-- Row shown when there is no matching data. -->
+                  <tr class="mat-row" *matNoDataRow>
+                    <td class="mat-cell" colspan="4">Račun je prazan</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="1" [rowspan]="2">
+        <mat-card class="dashboard-card2">
+          <mat-card-content class="dashboard-card-content">
+            <div>
+              <ng-select
+                appendTo="body"
+                appearance="outline"
+                [ngModelOptions]="{ standalone: true }"
+                #kupac
+                placeholder="Ime kupca: "
+                class="custom"
+                [items]="kupci"
+                bindLabel="naziv"
+                [(ngModel)]="selectedKupac"
+                (change)="onKupacChange($event)"
+              >
+                <ng-template
+                  ng-option-tmp
+                  let-item="item"
+                  let-index="index"
+                  class="opcije"
+                >
+                  <b>{{ item.naziv }} - </b>
+                  <b>Prebivalište: </b>
+                  <b>{{ item.mjesto }}, </b>
+                  <b>{{ item.adresa }} </b>
+                </ng-template>
+              </ng-select>
+            </div>
+          </mat-card-content>
+        </mat-card> </mat-grid-tile
+      ><mat-grid-tile [colspan]="1" [rowspan]="12">
+        <mat-card class="dashboard-card4">
+          <mat-card-content class="dashboard-card-content">
+            <mat-form-field class="example-full-width">
+              <mat-label>NAPOMENA</mat-label>
+              <input
+                matInput
+                placeholder="Napomena"
+                formControlName="napomena"
+              />
+            </mat-form-field>
+            <div class="bill1">
+              CIJENA PRIJE POPUSTA: <br />
+              {{ totalBezPopusta | number: ".2-2" }} KM
+            </div>
+            <div class="bill1">
+              POPUST: <br />
+              {{ totalPopust | number: ".2-2" }} KM
+            </div>
+            <div class="bill2">
+              UKUPNA CIJENA: <br />
+              {{ total | number: ".2-2" }} KM
+            </div>
+            <div class="unesi">
+              <button
+                mat-button
+                [disabled]="provjera == false"
+                (click)="postRacun()"
+              >
+                UNESI RACUN
+              </button>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
+</form>

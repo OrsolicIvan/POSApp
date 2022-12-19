@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+  button{
+    margin: 2px;
+  }
+.paginator{
+  display: flex;
+  justify-content: center;
+}
+.mat-column-sifra-header, .mat-column-naziv-header, .mat-sort-column-datum , .mat-column-ime , .mat-column-stanje-header {
+  text-align: center;
+}

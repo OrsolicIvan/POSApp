@@ -1,0 +1,10 @@
+<h1 mat-dialog-title class="titl">Jeste li sigurni da želite obrisati ovaj proizvod?</h1>
+<div mat-dialog-content class="dialogic">
+  Klikom na gumb Obriši se briše proizvod
+    <div mat-dialog-actionsclass="dialogic1"><br>
+      <button color="warn" mat-button (click)="deleteProduct(product.id)">
+        Obriši
+      </button>
+      <button mat-button mat-dialog-close>Odustani</button>
+    </div>
+</div>

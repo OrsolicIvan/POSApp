@@ -1,0 +1,20 @@
+.dialogic{
+    height:50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:black
+}
+.titl{
+    text-align: center;
+    color:black
+}
+.dialogic1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:black
+}
+::ng-deep mat-dialog-container {
+    background-color: #ffffff !important
+  }
